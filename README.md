@@ -20,6 +20,15 @@ Here are some ideas to get you started:
 -------
 
 <!--START_SECTION:waka-->
+
+```txt
+TypeScript   18 hrs 28 mins  █████████████████████▓░░░   86.91 %
+Other        1 hr 19 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.26 %
+JavaScript   33 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.66 %
+JSON         19 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   01.57 %
+Bash         10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.84 %
+```
+
 <!--END_SECTION:waka-->
 
 ![GitHub Streak](https://streak-stats.demolab.com?user=Qwesdy&theme=dark&hide_border=true)
