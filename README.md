@@ -24,6 +24,10 @@ Here are some ideas to get you started:
 <!--START_SECTION:waka-->
 
 ```txt
+From: 18 June 2023 - To: 25 June 2023
+
+Total Time: 19 hrs 55 mins
+
 TypeScript   18 hrs 28 mins  █████████████████████▓░░░   86.91 %
 Other        1 hr 19 mins    █▓░░░░░░░░░░░░░░░░░░░░░░░   06.26 %
 JavaScript   33 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.66 %
