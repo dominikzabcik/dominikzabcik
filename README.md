@@ -20,21 +20,4 @@ Here are some ideas to get you started:
 -------
 -->
 
-
-<!--START_SECTION:waka-->
-
-```txt
-From: 11 August 2023 - To: 18 August 2023
-
-Total Time: 25 hrs 5 mins
-
-TypeScript   23 hrs 10 mins  ██████████████████████▓░░   90.27 %
-JSON         44 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.88 %
-JavaScript   36 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.36 %
-Other        35 mins         ▓░░░░░░░░░░░░░░░░░░░░░░░░   02.29 %
-Bash         10 mins         ▒░░░░░░░░░░░░░░░░░░░░░░░░   00.70 %
-```
-
-<!--END_SECTION:waka-->
-
 ![GitHub Streak](https://streak-stats.demolab.com?user=Qwesdy&theme=dark&hide_border=true)
