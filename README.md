@@ -133,12 +133,3 @@ At NFCtron, we're always looking for exceptional people to join our mission! If 
 - 📈 Implementing advanced monitoring and observability
 - 🧪 Improving test coverage and CI/CD pipelines
 
----
-
-<div align="center">
-
-**⭐ If you find my work interesting, consider giving it a star!**
-
-Made with ❤️ by Dominik Žabčík
-
-</div>
