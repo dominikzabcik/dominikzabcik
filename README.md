@@ -48,52 +48,19 @@ I'm a **Lead Backend Developer** with a passion for crafting clean architecture 
 
 ---
 
-## 🚀 What I'm Building at NFCtron
+## 🚀 Building NFCtron System
 
-At NFCtron, I lead the development of backend systems that power our entire payment and event management ecosystem. Here's what we're building:
-
-### 📲 NFCtron Bianca
-
-Crucial POS mobile app enabling fastest and secure payments at events and also supporting ticketing check-in and access control system.
-
-### 🎫 NFCtron Tickets
-
-Web-based online event ticketing, seat reservation and cashless top-up system.
-
-### 🛸 NFCtron Hub
-
-Motherboard of the whole NFCtron ecosystem, also a B2B home for event organizers, sellers, and partners.
-
-### 🛰️ NFCtron API
-
-The backbone of all NFCtron products connecting them to the world and to each other in a fast, secure and scalable way.
-
-### 🎪 NFCtron Mobile Apps
-
-Our B2C Android and iOS apps for attendees and soon for our payment cardholders.
-
-### 📲 NFCtron Nautilus & Terminal Management System
-
-We decided to build our own fully certified and PCI compliant Mobile Terminal SoftPOS solution, will you build with us?
-
-### 💳 NFCtron Nebula & Card Management System
-
-We have also acquired an Issuing license and will issue our own payment NFCtron cards. Is this your next challenge?
-
----
-
-## 🚀 Growing the NFCtron Team
-
-At NFCtron, we're always looking for exceptional people to join our mission! If you have ambitions to **grow**, **learn**, and **inspire others**, NFCtron is the right place for you.
+At NFCtron, I lead the development of systems that power our entire payment and event management ecosystem. We're always looking for exceptional people to join our mission! If you have ambitions to **grow**, **learn**, and **inspire others**, NFCtron is the right place for you.
 
 ### Work with me and my team on exciting projects like:
 
-- 🛰 **NFCtron API**: The backbone of all NFCtron products connecting them to the world and to each other in a fast, secure and scalable way.
 - 📲 **NFCtron Bianca**: Crucial POS mobile app enabling fastest and secure payments at events and also supporting ticketing check-in and access control system.
 - 🎫 **NFCtron Tickets**: Web-based online event ticketing, seat reservation and cashless top-up system.
 - 🛸 **NFCtron Hub**: Motherboard of the whole NFCtron ecosystem, also a B2B home for event organizers, sellers, and partners.
-- 💳 **NFCtron Nebula & Card Management System**: We have also acquired an Issuing license and will issue our own payment NFCtron cards. Is this your next challenge?
+- 🛰 **NFCtron API**: The backbone of all NFCtron products connecting them to the world and to each other in a fast, secure and scalable way.
+- 🎪 **NFCtron Mobile Apps**: Our B2C Android and iOS apps for attendees and soon for our payment cardholders.
 - 📲 **NFCtron Nautilus & Terminal Management System**: We decided to build our own fully certified and PCI compliant Mobile Terminal SoftPOS solution, will you build with us?
+- 💳 **NFCtron Nebula & Card Management System**: We have also acquired an Issuing license and will issue our own payment NFCtron cards. Is this your next challenge?
 - _...and many more exciting journeys ahead!_ 🏦 👀
 
 > **👉 Check out our current job openings at our [career website](https://www.nfctron.com/cs/kariera)** 👈
