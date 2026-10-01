@@ -1,6 +1,7 @@
 #!/bin/bash
 # Renders a README through GitHub's own markdown API into .preview/<name>.html,
 # so you see what github.com will do with it (sanitising, theme fragments).
+# Like github.com, it hides a themed image only through the link around it.
 # Usage: scripts/preview.sh [README.md] [--open]
 set -euo pipefail
 root="$(cd "$(dirname "$0")/.." && pwd)"
@@ -17,8 +18,8 @@ cat > "$out" <<HTML
 <base href="$base">
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/github-markdown-css@5/github-markdown.css">
 <style>body{margin:0}.markdown-body{box-sizing:border-box;max-width:894px;margin:0 auto;padding:24px}
-@media (prefers-color-scheme:dark){body{background:#0d1117}img[src\$="#gh-light-mode-only"],img[data-canonical-src\$="#gh-light-mode-only"]{display:none}}
-@media (prefers-color-scheme:light){img[src\$="#gh-dark-mode-only"],img[data-canonical-src\$="#gh-dark-mode-only"]{display:none}}</style>
+@media (prefers-color-scheme:dark){body{background:#0d1117}a[href\$="#gh-light-mode-only"]{display:none}}
+@media (prefers-color-scheme:light){a[href\$="#gh-dark-mode-only"]{display:none}}</style>
 </head><body><article class="markdown-body">
 $body
 </article></body></html>

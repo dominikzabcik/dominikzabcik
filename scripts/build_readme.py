@@ -17,7 +17,8 @@ the Tanker font from the website repo (override with TANKER_FONT).
 
 Every block is drawn twice, dark and light, into assets/site/. Images use the
 #gh-dark-mode-only / #gh-light-mode-only fragments because GitHub breaks a
-<picture> that sits inside a link. Motion is CSS only and switches off under
+<picture> that sits inside a link. GitHub hides a themed image by the address
+of the link around it, so linked images carry the fragment on the href too. Motion is CSS only and switches off under
 prefers-reduced-motion.
 """
 
@@ -368,14 +369,16 @@ def main():
         html = ""
         for theme in ("dark", "light"):
             tag = f'<img alt="{esc(alt)}" src="{prefix}/{name}-{theme}.svg#gh-{theme}-mode-only"{w}>'
-            html += f'<a href="{href}">{tag}</a>' if href else tag
+            # GitHub hides a themed image by its link's address, so a linked one carries the
+            # fragment on the link as well; on the page it is a harmless anchor.
+            html += f'<a href="{href}#gh-{theme}-mode-only">{tag}</a>' if href else tag
         return html
 
     def live(w):
         """An image served by another site, in its dark and light versions."""
         sep = "&" if "?" in w["image"] else "?"
         return "".join(
-            f'<a href="{w["href"]}"><img alt="{esc(w["alt"])}" src="{src}#gh-{theme}-mode-only" width="{W}"></a>'
+            f'<a href="{w["href"]}#gh-{theme}-mode-only"><img alt="{esc(w["alt"])}" src="{src}#gh-{theme}-mode-only" width="{W}"></a>'
             for theme, src in (("dark", w["image"]), ("light", f'{w["image"]}{sep}theme=light'))
         )
 
