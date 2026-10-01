@@ -1,0 +1,194 @@
+{
+	"source": "https://zabcik.me (src/content/cv.ts, src/content/portfolio.ts)",
+	"name": "Dominik Žabčík",
+	"about": "Engineer and CISO at NFCtron in Prague. I build payment software and keep it hard to break.",
+	"tagline": "engineer and CISO in Prague",
+	"headline": "Full-stack TypeScript engineer, CISO and Head of Development",
+	"profile": "Backend-first TypeScript engineer who leads development and security at NFCtron, a payment platform for live events. Since 2023 I have merged 649 pull requests there, from payments and ticketing to a native Android point of sale. I work mostly in Node.js and NestJS, reach for React and Next.js when a product needs a face, and build my own products in Swift and on Cloudflare.",
+	"location": "Prague, Czechia",
+	"links": {
+		"site": "https://zabcik.me",
+		"cv": "https://zabcik.me/cv",
+		"cvPdf": "https://zabcik.me/dominik-zabcik-cv.pdf",
+		"linkedin": "https://www.linkedin.com/in/dominik-%C5%BEab%C4%8D%C3%ADk-a1857433a/",
+		"github": "https://github.com/dominikzabcik"
+	},
+	"experience": [
+		{
+			"id": "ciso",
+			"title": "CISO and Head of Development",
+			"company": "NFCtron",
+			"period": "Jan 2026 to now",
+			"summary": "I run engineering and own the security of the payment platform.",
+			"highlights": [
+				"Own security strategy, risk and incident response for payment infrastructure used at live events.",
+				"Build a native Android point of sale in Kotlin and the attendee app in React Native.",
+				"Roll out AI agents: an internal Slack agent and shared tooling for coding agents."
+			]
+		},
+		{
+			"id": "lead",
+			"title": "Core Backend Developer Lead",
+			"company": "NFCtron",
+			"period": "Oct 2024 to Jan 2026",
+			"summary": "I led the core backend team and owned the architecture of its services.",
+			"highlights": [
+				"Led the core backend developers: planning, code review and mentoring.",
+				"Owned the design of core services built on NestJS, PostgreSQL, Redis and RabbitMQ.",
+				"Kept production running on Kubernetes and Docker, with search on Typesense."
+			]
+		},
+		{
+			"id": "backend",
+			"title": "Core Backend Developer",
+			"company": "NFCtron",
+			"period": "Jun 2023 to Oct 2024",
+			"summary": "I joined to build the backend that payments at live events run on.",
+			"highlights": [
+				"Built and shipped core backend services in TypeScript on NestJS.",
+				"Worked across PostgreSQL, Redis, RabbitMQ and Typesense in production.",
+				"Moved up to team lead after sixteen months."
+			]
+		}
+	],
+	"projects": [
+		{
+			"id": "snipr",
+			"name": "Snipr",
+			"href": "https://snipr.host",
+			"year": "2026",
+			"kind": "Independent product",
+			"summary": "Short links, browser-encrypted pastes, files and profiles on Cloudflare Workers, with passkeys and billing. I own it and build it."
+		},
+		{
+			"id": "keyhop",
+			"name": "Keyhop",
+			"href": "https://keyhop.app",
+			"year": "2026",
+			"kind": "Open source",
+			"summary": "Menu bar app that switches Claude Code, Cursor and Codex accounts and tracks usage and budgets."
+		},
+		{
+			"id": "website",
+			"name": "zabcik.me",
+			"href": "https://zabcik.me",
+			"year": "2026",
+			"kind": "This website",
+			"summary": "A particle field that spells each page, live Prague data and a CV that exports itself to PDF."
+		}
+	],
+	"skills": [
+		{
+			"id": "stack",
+			"name": "Stack",
+			"items": [
+				{
+					"id": "typescript",
+					"name": "TypeScript"
+				},
+				{
+					"id": "nodejs",
+					"name": "Node.js"
+				},
+				{
+					"id": "nestjs",
+					"name": "NestJS"
+				},
+				{
+					"id": "react",
+					"name": "React"
+				},
+				{
+					"id": "nextjs",
+					"name": "Next.js"
+				},
+				{
+					"id": "tailwind",
+					"name": "Tailwind CSS"
+				},
+				{
+					"id": "kotlin",
+					"name": "Kotlin"
+				},
+				{
+					"id": "swift",
+					"name": "Swift"
+				},
+				{
+					"id": "reactnative",
+					"name": "React Native"
+				}
+			]
+		},
+		{
+			"id": "data",
+			"name": "Data and messaging",
+			"items": [
+				{
+					"id": "postgresql",
+					"name": "PostgreSQL"
+				},
+				{
+					"id": "redis",
+					"name": "Redis"
+				},
+				{
+					"id": "rabbitmq",
+					"name": "RabbitMQ"
+				},
+				{
+					"id": "typesense",
+					"name": "Typesense"
+				}
+			]
+		},
+		{
+			"id": "ops",
+			"name": "Infrastructure",
+			"items": [
+				{
+					"id": "docker",
+					"name": "Docker"
+				},
+				{
+					"id": "kubernetes",
+					"name": "Kubernetes"
+				},
+				{
+					"id": "cloudflare",
+					"name": "Cloudflare Workers"
+				}
+			]
+		},
+		{
+			"id": "craft",
+			"name": "Practice",
+			"items": [
+				{
+					"id": "payments",
+					"name": "Payment systems"
+				},
+				{
+					"id": "security",
+					"name": "Application security"
+				},
+				{
+					"id": "architecture",
+					"name": "API and systems design"
+				},
+				{
+					"id": "leadership",
+					"name": "Engineering leadership"
+				},
+				{
+					"id": "agents",
+					"name": "AI-assisted engineering"
+				},
+				{
+					"id": "delivery",
+					"name": "Product delivery"
+				}
+			]
+		}
+	]
+}

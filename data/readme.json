@@ -1,0 +1,64 @@
+{
+	"_comment": "README-only content. Everything shared with zabcik.me (roles, projects, skills, links, profile text) comes from profile.json, which is exported from the website. Edit this file only for what the website does not have.",
+	"drawn": [
+		{
+			"name": "AI",
+			"text": "Agents that do real work. At NFCtron I roll out an internal Slack agent and shared tooling for coding agents, and Keyhop tracks the accounts my own agents run on."
+		},
+		{
+			"name": "Complex systems",
+			"text": "Many moving parts that have to agree: payments, terminals, cards and access control, all at once."
+		}
+	],
+	"nfctron": {
+		"intro": "Cashless payments, ticketing and event management for live events across Europe.",
+		"products": [
+			["Bianca", "POS mobile app for the fastest, most secure payments at events. Also runs ticketing check-in and access control."],
+			["Tickets", "Web event ticketing, seat reservation and cashless top-up."],
+			["Hub", "The motherboard of the NFCtron ecosystem and the B2B home for organizers, sellers and partners."],
+			["API", "The backbone that connects every NFCtron product to the world and to each other, fast, secure and scalable."],
+			["Mobile apps", "B2C Android and iOS apps for attendees, and soon for our payment cardholders."],
+			["Nautilus", "Our own fully certified, PCI compliant SoftPOS mobile terminal, with a Terminal Management System."],
+			["Nebula", "Card Management System for our own NFCtron payment cards, backed by an issuing license."]
+		],
+		"careers": {
+			"title": "Join the team",
+			"text": "If you want to grow, learn and inspire others, NFCtron is hiring",
+			"href": "https://www.nfctron.com/cs/kariera"
+		}
+	},
+	"keyhopWidget": {
+		"_comment": "Live image from Keyhop Cloud, served by keyhop.app. Set to null to drop it.",
+		"image": "https://keyhop.app/u/dominikzabcik/graph.svg",
+		"href": "https://keyhop.app/u/dominikzabcik",
+		"alt": "A year of AI coding on Keyhop, shaded by tokens per day"
+	},
+	"projectMore": {
+		"keyhop": "Forecasts and Smart Hop included."
+	},
+	"focus": [
+		"AI agents and developer tooling",
+		"Security and compliance",
+		"Scalable service architecture",
+		"Monitoring and observability",
+		"Database performance under high traffic",
+		"Test coverage and CI/CD pipelines"
+	],
+	"icons": {
+		"typescript": "typescript",
+		"nodejs": "nodedotjs",
+		"nestjs": "nestjs",
+		"react": "react",
+		"nextjs": "nextdotjs",
+		"tailwind": "tailwindcss",
+		"kotlin": "kotlin",
+		"swift": "swift",
+		"reactnative": "react",
+		"postgresql": "postgresql",
+		"redis": "redis",
+		"rabbitmq": "rabbitmq",
+		"docker": "docker",
+		"kubernetes": "kubernetes",
+		"cloudflare": "cloudflareworkers"
+	}
+}
