@@ -6,7 +6,9 @@
 - **README-only content** lives in `data/readme.json`: the NFCtron product list, the hiring line, "What pulls me in", "Current focus", extra sentences for projects (`projectMore`), the live Keyhop year graph at the bottom (`keyhopWidget`, served by keyhop.app, `null` removes it), and the Simple Icons slug for each skill id. GitHub may say more than the website; it must not contradict it.
 - `data/profile.json` is an export, not a source. Regenerate it, never edit it.
 
-After any change to the website content or to `data/readme.json`, run:
+The sync is automatic. The website's `Profile README` workflow exports `data/profile.json`, rebuilds the README and pushes here whenever the website's content changes on `main`, and daily at 05:41 UTC, which also picks up edits to `data/readme.json`. To sync at once after editing `data/readme.json`, run `gh workflow run "Profile README" -R dominikzabcik/zabcik.me`.
+
+To build or preview locally, run:
 
 ```bash
 cd ~/website && bun run profile:export ~/orca/dominikzabcik/data/profile.json
