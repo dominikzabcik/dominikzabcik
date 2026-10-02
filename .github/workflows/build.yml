@@ -1,0 +1,66 @@
+name: Build README
+
+# Rebuilds README.md and assets/site from data/ whenever the data changes:
+# the website's sync pushes data/profile.json, and data/readme.json is edited
+# here. It runs on macOS because text is measured with the macOS system font
+# (SF Pro), the one GitHub's readers on a Mac see; Linux has no such font and
+# the layout would only be guessed. Public repositories run macOS for free.
+on:
+    push:
+        branches: [main]
+        paths:
+            - data/**
+            - scripts/**
+            - .github/workflows/build.yml
+    workflow_dispatch:
+
+permissions:
+    contents: write
+
+concurrency:
+    group: build-readme
+    cancel-in-progress: false
+
+jobs:
+    build:
+        name: Build the README
+        runs-on: macos-latest
+        timeout-minutes: 10
+
+        steps:
+            - name: Checkout
+              uses: actions/checkout@v7
+
+            - name: Set up Python
+              uses: actions/setup-python@v7
+              with:
+                  python-version: '3.13'
+
+            - name: Install the build tools
+              run: pip install fonttools==4.65.0 brotli==1.2.0
+
+            # Tanker is not committed here; it arrives as a secret and is used
+            # only to draw the particle banner.
+            - name: Restore the Tanker font
+              env:
+                  TANKER_FONT_B64: ${{ secrets.TANKER_FONT_B64 }}
+              run: echo "$TANKER_FONT_B64" | base64 --decode > "$RUNNER_TEMP/tanker.woff2"
+
+            - name: Build
+              env:
+                  TANKER_FONT: ${{ runner.temp }}/tanker.woff2
+              run: python3 scripts/build_readme.py
+
+            # Pushed with the workflow's own token, which never starts another
+            # run, so a build cannot trigger itself.
+            - name: Commit when something changed
+              run: |
+                  if [ -z "$(git status --porcelain)" ]; then
+                      echo "README is already up to date."
+                      exit 0
+                  fi
+                  git config user.name 'github-actions[bot]'
+                  git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+                  git add -A
+                  git commit -m "Rebuild the README from data/"
+                  git push
