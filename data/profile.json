@@ -4,7 +4,7 @@
 	"about": "Engineer and CISO at NFCtron in Prague. I build payment software and keep it hard to break.",
 	"tagline": "engineer and CISO in Prague",
 	"headline": "Full-stack TypeScript engineer, CISO and Head of Development",
-	"profile": "Backend-first TypeScript engineer who leads development and security at NFCtron, a payment platform for live events. Since 2023 I have merged 649 pull requests there, from payments and ticketing to a native Android point of sale. I work mostly in Node.js and NestJS, reach for React and Next.js when a product needs a face, and build my own products in Swift and on Cloudflare.",
+	"profile": "Backend-first engineer who leads development and security at NFCtron, a payment platform for live events, and at NFCtron Pay, which handles its card payments. I have worked across the chain: ticketing and payments in TypeScript and NestJS, bank payouts and invoicing, Android point-of-sale apps and a PCI MPoC-certified Tap to Pay terminal.",
 	"location": "Prague, Czechia",
 	"links": {
 		"site": "https://zabcik.me",
@@ -18,35 +18,38 @@
 			"id": "ciso",
 			"title": "CISO and Head of Development",
 			"company": "NFCtron",
-			"period": "Jan 2026 to now",
-			"summary": "I run engineering and own the security of the payment platform.",
+			"period": "Since Jan 2026",
+			"summary": "I run engineering and own security across NFCtron and NFCtron Pay, its card payment platform.",
 			"highlights": [
-				"Own security, risk, incident response and every PCI and card scheme certification; led PCI DSS 4.0.1 and PCI MPoC.",
-				"Build a native Android point of sale in Kotlin and the attendee app in React Native.",
-				"Roll out AI agents: an internal Slack agent and shared tooling for coding agents."
+				"Own security, risk, incident response and compliance with PCI and the card schemes; led PCI DSS 4.0.1, MPoC, scheme certifications and external pentests of our terminal.",
+				"Secure NFCtron Pay: Tap to Pay on Android, terminals, key management and its cloud.",
+				"Lead development of the platform: payments, ticketing, billing, bank payouts, point of sale and mobile apps.",
+				"Build NFCtron Nebula, our prepaid card program, with identity checks (KYC).",
+				"Bring AI agents into the team’s daily work, from internal assistants to coding agents."
 			]
 		},
 		{
 			"id": "lead",
 			"title": "Core Backend Developer Lead",
 			"company": "NFCtron",
-			"period": "Oct 2024 to Jan 2026",
+			"period": "Oct 2024 to Jan 2026",
 			"summary": "I led the core backend team and owned the architecture of its services.",
 			"highlights": [
-				"Led the core backend developers: planning, code review and mentoring.",
-				"Owned the design of core services built on NestJS, PostgreSQL, Redis and RabbitMQ.",
-				"Kept production running on Kubernetes and Docker, with search on Typesense."
+				"Led the core backend team: planning, code review and mentoring.",
+				"Owned the architecture of the core services: NestJS, PostgreSQL, Redis and RabbitMQ on Kubernetes.",
+				"Worked on payment gateways, the ticket marketplace, PDF tickets and partner APIs.",
+				"Kept production stable and fast, with search on Typesense."
 			]
 		},
 		{
 			"id": "backend",
 			"title": "Core Backend Developer",
 			"company": "NFCtron",
-			"period": "Jun 2023 to Oct 2024",
+			"period": "Jun 2023 to Oct 2024",
 			"summary": "I joined to build the backend that payments at live events run on.",
 			"highlights": [
-				"Built and shipped core backend services in TypeScript on NestJS.",
-				"Worked across PostgreSQL, Redis, RabbitMQ and Typesense in production.",
+				"Built core backend services in TypeScript on NestJS, with PostgreSQL, Redis, RabbitMQ and Typesense.",
+				"Worked on ticketing, refunds and bank payouts, reporting, fiscalization and the attendee app’s API.",
 				"Moved up to team lead after sixteen months."
 			]
 		}
@@ -58,7 +61,7 @@
 			"href": "https://snipr.host",
 			"year": "2026",
 			"kind": "Independent product",
-			"summary": "Short links, browser-encrypted pastes, files and profiles on Cloudflare Workers, with passkeys and billing. I own it and build it."
+			"summary": "A public page for links, browser-encrypted pastes and files, with analytics and mail on your own domain. Runs on Cloudflare Workers, with passkeys and billing. I own it and build it."
 		},
 		{
 			"id": "keyhop",
@@ -66,15 +69,15 @@
 			"href": "https://keyhop.app",
 			"year": "2026",
 			"kind": "Open source",
-			"summary": "Switches Claude Code, Cursor, Codex and six more AI coding tools between accounts, with usage and budgets."
+			"summary": "Switches Claude Code, Cursor, Codex and six more AI coding tools between accounts and tracks their usage."
 		},
 		{
 			"id": "website",
 			"name": "zabcik.me",
 			"href": "https://zabcik.me",
 			"year": "2026",
-			"kind": "This website",
-			"summary": "A particle field that spells each page, live Prague data and a CV that exports itself to PDF."
+			"kind": "Portfolio",
+			"summary": "My portfolio and interactive CV. A particle field spells each page, the homepage shows what I am listening to and pushing right now, and the CV renders itself to PDF in two languages."
 		}
 	],
 	"skills": [
@@ -107,16 +110,34 @@
 					"name": "Tailwind CSS"
 				},
 				{
+					"id": "dotnet",
+					"name": "C# and .NET"
+				}
+			]
+		},
+		{
+			"id": "mobile",
+			"name": "Mobile",
+			"items": [
+				{
 					"id": "kotlin",
 					"name": "Kotlin"
 				},
 				{
-					"id": "swift",
-					"name": "Swift"
+					"id": "android",
+					"name": "Android"
 				},
 				{
 					"id": "reactnative",
 					"name": "React Native"
+				},
+				{
+					"id": "flutter",
+					"name": "Flutter"
+				},
+				{
+					"id": "swift",
+					"name": "Swift"
 				}
 			]
 		},
@@ -139,6 +160,10 @@
 				{
 					"id": "typesense",
 					"name": "Typesense"
+				},
+				{
+					"id": "grpc",
+					"name": "gRPC"
 				}
 			]
 		},
@@ -155,8 +180,88 @@
 					"name": "Kubernetes"
 				},
 				{
+					"id": "terraform",
+					"name": "Terraform"
+				},
+				{
+					"id": "aws",
+					"name": "AWS"
+				},
+				{
+					"id": "gcp",
+					"name": "Google Cloud"
+				},
+				{
 					"id": "cloudflare",
-					"name": "Cloudflare Workers"
+					"name": "Cloudflare"
+				},
+				{
+					"id": "cicd",
+					"name": "CI/CD"
+				},
+				{
+					"id": "observability",
+					"name": "Observability"
+				}
+			]
+		},
+		{
+			"id": "payments",
+			"name": "Payments",
+			"items": [
+				{
+					"id": "payments",
+					"name": "Payment gateways"
+				},
+				{
+					"id": "terminals",
+					"name": "Tap to Pay and terminals"
+				},
+				{
+					"id": "banking",
+					"name": "Bank reconciliation"
+				},
+				{
+					"id": "invoicing",
+					"name": "Invoicing and fiscalization"
+				},
+				{
+					"id": "issuing",
+					"name": "Card issuing"
+				},
+				{
+					"id": "clearing",
+					"name": "Clearing and settlement"
+				},
+				{
+					"id": "emv",
+					"name": "EMV kernels"
+				}
+			]
+		},
+		{
+			"id": "security",
+			"name": "Security",
+			"items": [
+				{
+					"id": "compliance",
+					"name": "PCI DSS, MPoC and PIN"
+				},
+				{
+					"id": "security",
+					"name": "Application security"
+				},
+				{
+					"id": "keys",
+					"name": "Key management and attestation"
+				},
+				{
+					"id": "pentest",
+					"name": "Pentesting"
+				},
+				{
+					"id": "hardening",
+					"name": "App hardening"
 				}
 			]
 		},
@@ -165,16 +270,12 @@
 			"name": "Practice",
 			"items": [
 				{
-					"id": "payments",
-					"name": "Payment systems"
-				},
-				{
-					"id": "security",
-					"name": "Application security"
-				},
-				{
 					"id": "architecture",
-					"name": "API and systems design"
+					"name": "System design"
+				},
+				{
+					"id": "performance",
+					"name": "Database tuning"
 				},
 				{
 					"id": "leadership",
@@ -182,15 +283,7 @@
 				},
 				{
 					"id": "agents",
-					"name": "AI-assisted engineering"
-				},
-				{
-					"id": "compliance",
-					"name": "PCI DSS, MPoC and PIN"
-				},
-				{
-					"id": "delivery",
-					"name": "Product delivery"
+					"name": "AI agents and MCP"
 				}
 			]
 		}

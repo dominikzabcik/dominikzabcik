@@ -59,6 +59,12 @@
 		"rabbitmq": "rabbitmq",
 		"docker": "docker",
 		"kubernetes": "kubernetes",
-		"cloudflare": "cloudflareworkers"
+		"cloudflare": "cloudflareworkers",
+		"dotnet": "dotnet",
+		"android": "android",
+		"flutter": "flutter",
+		"terraform": "terraform",
+		"aws": "amazonwebservices",
+		"gcp": "googlecloud"
 	}
 }
