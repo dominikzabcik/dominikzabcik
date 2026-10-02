@@ -12,8 +12,8 @@ To preview locally, run:
 
 ```bash
 cd ~/website && bun run profile:export ~/orca/dominikzabcik/data/profile.json
-cd ~/orca/dominikzabcik && python3 scripts/build_readme.py
-scripts/preview.sh --open        # GitHub's own renderer, opens in Chrome
+cd ~/orca/dominikzabcik && python3 scripts/build_readme.py --out .preview/draft.md
+scripts/preview.sh .preview/draft.md --open   # GitHub's own renderer, opens in Chrome
 ```
 
 `python3 scripts/build_readme.py --out .preview/draft.md` writes a git-ignored draft instead of `README.md` (preview it with `scripts/preview.sh .preview/draft.md --open`). The build needs `fonttools` and `brotli` (`pip3 install fonttools brotli`) and reads Tanker from `~/website/src/fonts/tanker.woff2` (override with `TANKER_FONT`); the font is not committed here. A new skill with a brand mark needs its Simple Icons SVG in `scripts/readme/icons/` and a slug in `data/readme.json`; without one it gets a plain square.
