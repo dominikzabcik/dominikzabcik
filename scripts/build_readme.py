@@ -350,6 +350,8 @@ def main():
     for p in profile["projects"]:
         blocks[f'project-{p["id"]}'] = (lambda p: lambda c: project(c, p, readme))(p)
     elsewhere = [("CV", links["cv"]), ("LinkedIn", links["linkedin"]), ("zabcik.me", links["site"])]
+    if links.get("email"):
+        elsewhere.insert(1, ("Email", f"mailto:{links['email']}"))
     for name, _ in elsewhere:
         blocks[f"link-{name.lower().replace('.', '')}"] = (lambda n: lambda c: link(c, n))(name)
 
