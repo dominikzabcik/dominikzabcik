@@ -38,6 +38,7 @@
 
 <p>
 <a href="https://zabcik.me/cv#gh-dark-mode-only"><img alt="CV" src="assets/site/link-cv-dark.svg#gh-dark-mode-only"></a><a href="https://zabcik.me/cv#gh-light-mode-only"><img alt="CV" src="assets/site/link-cv-light.svg#gh-light-mode-only"></a>&nbsp;&nbsp;&nbsp;&nbsp;
+<a href="mailto:dominik@zabcik.me#gh-dark-mode-only"><img alt="Email" src="assets/site/link-email-dark.svg#gh-dark-mode-only"></a><a href="mailto:dominik@zabcik.me#gh-light-mode-only"><img alt="Email" src="assets/site/link-email-light.svg#gh-light-mode-only"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://www.linkedin.com/in/dominikzabcik/#gh-dark-mode-only"><img alt="LinkedIn" src="assets/site/link-linkedin-dark.svg#gh-dark-mode-only"></a><a href="https://www.linkedin.com/in/dominikzabcik/#gh-light-mode-only"><img alt="LinkedIn" src="assets/site/link-linkedin-light.svg#gh-light-mode-only"></a>&nbsp;&nbsp;&nbsp;&nbsp;
 <a href="https://zabcik.me#gh-dark-mode-only"><img alt="zabcik.me" src="assets/site/link-zabcikme-dark.svg#gh-dark-mode-only"></a><a href="https://zabcik.me#gh-light-mode-only"><img alt="zabcik.me" src="assets/site/link-zabcikme-light.svg#gh-light-mode-only"></a>
 </p>
