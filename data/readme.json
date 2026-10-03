@@ -20,12 +20,7 @@
 			["Mobile apps", "B2C Android and iOS apps for attendees, and soon for our payment cardholders."],
 			["Nautilus", "Our own fully certified, PCI compliant SoftPOS mobile terminal, with a Terminal Management System."],
 			["Nebula", "Card Management System for our own NFCtron payment cards, backed by an issuing license."]
-		],
-		"careers": {
-			"title": "Join the team",
-			"text": "If you want to grow, learn and inspire others, NFCtron is hiring",
-			"href": "https://www.nfctron.com/cs/kariera"
-		}
+		]
 	},
 	"keyhopWidget": {
 		"_comment": "Live image from Keyhop Cloud, served by keyhop.app. Set to null to drop it.",
