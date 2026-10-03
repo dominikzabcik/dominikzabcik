@@ -13,8 +13,7 @@
 </p>
 
 <p>
-<img alt="NFCtron" src="assets/site/nfctron-dark.svg#gh-dark-mode-only"><img alt="NFCtron" src="assets/site/nfctron-light.svg#gh-light-mode-only"><br>
-<a href="https://www.nfctron.com/cs/kariera#gh-dark-mode-only"><img alt="NFCtron is hiring" src="assets/site/careers-dark.svg#gh-dark-mode-only"></a><a href="https://www.nfctron.com/cs/kariera#gh-light-mode-only"><img alt="NFCtron is hiring" src="assets/site/careers-light.svg#gh-light-mode-only"></a>
+<img alt="NFCtron" src="assets/site/nfctron-dark.svg#gh-dark-mode-only"><img alt="NFCtron" src="assets/site/nfctron-light.svg#gh-light-mode-only">
 </p>
 
 <p>
