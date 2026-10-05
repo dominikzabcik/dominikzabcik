@@ -1,0 +1,4 @@
+.preview/
+.cursor/
+# Local notes for agents; the generator and its rules live in the private website repository.
+AGENTS.md
